@@ -50,10 +50,6 @@ body {
     background: linear-gradient(to right, #181825 0%, #22213c 100%);
 }
 
-.wrapper {
-    height: 100vh;
-    /* background: linear-gradient(270deg, #201E36 0%, #131421 100%); */
-}
 
 *,
 *:before,

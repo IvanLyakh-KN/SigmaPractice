@@ -72,11 +72,8 @@
 .background-circle__1 {
     height: 159px;
     width: 159px;
-    /* background: linear-gradient(90deg, #272638 0%, #2A283D 100%); */
     background: linear-gradient(90deg, #272638 0%, #2A283D 100%);
     z-index: 5;
-
-
 }
 
 .background-circle__2 {

@@ -1,8 +1,8 @@
-import './button.css'; 
+import './button.css';
 
 const Button = ({ text, className = "" }) => {
     return (
-        <button className={`btn ${className} `} >
+        <button className={className} >
             {text}
         </button>
     );

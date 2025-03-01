@@ -16,7 +16,6 @@ const Header = () => {
                 <li className="header__nav-item"><a href="#">Targeted resume</a></li>
                 <li className="header__nav-item"><a href="#">Help</a></li>
                 <li className="header__authorisation-button">
-                    {/* Link to btn component */}
                     <Button text={"Log In"} className="btn"></Button>
                 </li>
             </ul>
