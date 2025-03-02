@@ -2,6 +2,8 @@ import { Component } from "react";
 import Header from "../../components/header/header.js";
 import HeroSection from "../../components/heroSection/heroSection.js";
 import ResumeToolkit from "../../components/resumeTransfer/resumeToolkit.js";
+import Footer from "../../components/footer/footer.js";
+
 import "./mainPage.css";
 
 class MainPage extends Component {
@@ -25,6 +27,7 @@ class MainPage extends Component {
                             btnText={'Target your resume'}
                             btnClasses="btn_big">
                         </ResumeToolkit>
+                        <Footer></Footer>
                     </div>
                 </div>
             </>
