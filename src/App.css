@@ -25,6 +25,7 @@ body {
 a,
 p,
 span,
+label,
 h1,
 h2,
 h3,
@@ -73,4 +74,14 @@ li {
     max-width: 1400px;
     margin: 0 auto;
     height: 100%;
+}
+
+.wrapper {
+    /* background: linear-gradient(270deg, #201E36 0%, #131421 100%); */
+    overflow: hidden;
+}
+
+.signForm_active {
+    pointer-events: none;
+    user-select: none;
 }

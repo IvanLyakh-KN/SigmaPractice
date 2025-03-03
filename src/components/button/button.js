@@ -1,9 +1,9 @@
 import './button.css';
 
-const Button = ({ text, className = "" }) => {
+const Button = ({ text, image, className = "" }) => {
     return (
         <button className={className} >
-            {text}
+            {text ? text : <img src={image} alt="button" className="btn__image" />}
         </button>
     );
 }
