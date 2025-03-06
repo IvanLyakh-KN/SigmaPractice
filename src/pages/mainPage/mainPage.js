@@ -4,6 +4,7 @@ import HeroSection from "../../components/heroSection/heroSection.js";
 import ResumeToolkit from "../../components/resumeTransfer/resumeToolkit.js";
 import Footer from "../../components/footer/footer.js";
 import SignForm from "../../components/signForm/signForm.js";
+import BeginBlock from "../../components/beginBlock/beginBlock.js";
 
 import "./mainPage.css";
 
@@ -17,7 +18,7 @@ class MainPage extends Component {
 
                         {/* <SignForm signForm__title={"Login"} btnText={"Login"} btnClasses={'btn btn_inactive'}></SignForm> */}
 
-                        <HeroSection></HeroSection>
+                        {/* <HeroSection></HeroSection>
                         <ResumeToolkit
                             title={"Get expert feedback on your resume, instantly"}
                             descr="Score My Resume scores your resume on key criteria recruiters and hiring managers look for. Upload your resume and in just 30 seconds, you'll get actionable steps to revamp your resume and land more interviews."
@@ -31,6 +32,9 @@ class MainPage extends Component {
                             btnText={'Target your resume'}
                             btnClasses="btn btn_big">
                         </ResumeToolkit>
+                        <Footer></Footer> */}
+                        <HeroSection></HeroSection>
+                        <BeginBlock></BeginBlock>
                         <Footer></Footer>
                     </div>
                 </div>

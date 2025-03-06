@@ -1,0 +1,25 @@
+.beginForm {
+    & .beginForm__field {
+        margin-left: 110px;
+
+        & .beginForm__input {
+            border-radius: 30px;
+            border: 1px solid #484263;
+            background: transparent;
+            backdrop-filter: blur(10px);
+            height: 220px;
+            width: 100%;
+            padding: 35px 45px;
+
+            color: var(--text-color-1, #F0ECFC);
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+
+    & .beginForm__button {
+        display: flex;
+        justify-content: end;
+        margin-top: 23px;
+    }
+}
