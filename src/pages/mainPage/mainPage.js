@@ -33,7 +33,7 @@ class MainPage extends Component {
                             btnClasses="btn btn_big">
                         </ResumeToolkit>
                         <Footer></Footer> */}
-
+                        
                         <HeroSection></HeroSection>
                         <BeginBlock></BeginBlock>
                         <Footer></Footer>
