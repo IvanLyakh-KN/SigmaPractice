@@ -13,7 +13,7 @@ class MainPage extends Component {
         return (
             <>
                 <div className="wrapper">
-                    <Header></Header>
+                    {/* <Header></Header> */}
                     <div className="container">
 
                         {/* <SignForm signForm__title={"Login"} btnText={"Login"} btnClasses={'btn btn_inactive'}></SignForm> */}
@@ -33,6 +33,7 @@ class MainPage extends Component {
                             btnClasses="btn btn_big">
                         </ResumeToolkit>
                         <Footer></Footer> */}
+
                         <HeroSection></HeroSection>
                         <BeginBlock></BeginBlock>
                         <Footer></Footer>

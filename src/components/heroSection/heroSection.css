@@ -7,9 +7,13 @@
     position: relative;
     height: 100vh;
 
+    @media screen and (max-width: 1024px) {
+        text-align: center;
+    }
+
     & .hero__title {
         color: var(--text-color-1, #F0ECFC);
-        font-size: 64px;
+        font-size: 4.5rem;
         font-style: normal;
         font-weight: 200;
         line-height: 110%;
@@ -23,7 +27,7 @@
 
     & .hero__subtitle {
         color: var(--text-color-2);
-        font-size: 40px;
+        font-size: 2.8rem;
         font-weight: 200;
         line-height: normal;
         z-index: 2;
@@ -39,7 +43,7 @@
 
         & a {
             color: var(--add-color, #4EFBAD);
-            font-size: 20px;
+            font-size: 1.4rem;
             font-style: normal;
             font-weight: 300;
             line-height: normal;

@@ -2,6 +2,13 @@
     & .beginForm__field {
         margin-left: 110px;
 
+        @media screen and (max-width: 768px) {
+            margin-left: 70px;
+        }
+        @media screen and (max-width: 425px) {
+            margin-left: 30px;
+        }
+
         & .beginForm__input {
             border-radius: 30px;
             border: 1px solid #484263;
